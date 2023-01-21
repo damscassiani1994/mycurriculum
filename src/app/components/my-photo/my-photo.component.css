@@ -1,0 +1,20 @@
+.body-myphoto {
+    position: absolute;
+    left: 60%;
+    margin-left: 0px;
+    width: 40%;
+    height: 80%;
+}
+
+.photo {
+    position: absolute;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-image: url("../../../assets/images/myphoto.jpeg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}

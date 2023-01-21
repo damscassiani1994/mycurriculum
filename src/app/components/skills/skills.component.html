@@ -1,0 +1,64 @@
+<div class="app-body">
+    <h1 class="title-strong">Habilidades</h1>
+    <div class="expansion-skill">
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Lenguajes y Frameworks
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <mat-list>
+                    <mat-list-item *ngFor="let lf of skillsExperienceLenguajes; let idx = index">
+                        <div mat-line>{{lf.name}}</div>
+                    </mat-list-item>                    
+                </mat-list>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <br>
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Paradigmas y Aquitecturas
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <mat-list>
+                    <mat-list-item *ngFor="let pa of skillsExperienceParadigms">
+                        <div mat-line>{{pa.name}}</div>
+                    </mat-list-item>
+                </mat-list>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <br>
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Base de datos
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <mat-list>
+                    <mat-list-item *ngFor="let db of skillExperienceBD">
+                        <div mat-line>{{db.name}}</div>
+                    </mat-list-item>
+                </mat-list>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <br>
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        DevOps
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <mat-list>
+                    <mat-list-item *ngFor="let do of skillExperienceDevOps">
+                        <div mat-line>{{do.name}}</div>
+                    </mat-list-item>
+                </mat-list>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>

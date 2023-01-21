@@ -1,0 +1,9 @@
+.app-menu {
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.my-name {
+    position: absolute;
+    left: 87%
+}

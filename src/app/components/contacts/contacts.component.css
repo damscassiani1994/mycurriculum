@@ -1,0 +1,24 @@
+.btn-contact {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.linkeind {
+    background: url("../../../assets/images/Icono-Linkedin.png") no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+
+.twitter {
+    background: url("../../../assets/images/Icono-twitter.jpeg") no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+
+.github {
+    background: url("../../../assets/images/icono-github.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
