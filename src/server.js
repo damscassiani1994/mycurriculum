@@ -3,10 +3,10 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static(__dirname + '/dist/mycurriculum'));
+app.use(express.static('/app/dist/brief-case'));
 
 app.get('/*', function(req,res) {
-res.sendFile(path.join(__dirname+'/dist/mycurriculum/index.html'));
+res.sendFile(path.join('/app/dist/brief-case/index.html'));
 });
 
 app.listen(process.env.PORT || 5000);
